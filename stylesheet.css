@@ -1,3 +1,26 @@
 body {
     background-color: #333333;
 }
+#software-aas {
+    font-family: Arial;
+    font-size: 1rem;
+    color: #74b9ff;
+}
+p {
+    color: #888888;
+}
+h1, h2, h3 {
+    color: #ffffff;
+}
+ol li {
+    color: #888888;
+}
+a:link {
+    color: #2e86de;
+}
+a:visited {
+    color: #a5d1ff;
+}
+a:hover {
+    color: #ffffff;
+}
