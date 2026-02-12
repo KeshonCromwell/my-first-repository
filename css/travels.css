@@ -1,0 +1,39 @@
+body {
+    background-color: #333333;
+    background-image: url('../img/BeachSunset.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1 {
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+p {
+    color: #ffffff;
+}
+.travel-columns {
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: 5px solid #ffffff;
+    border: 3px solid #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+a:link {
+    color: #ffffff;
+}
+a:visited {
+    color: #ffffff;
+}
+a:hover {
+    color: #ffd700;
+}
