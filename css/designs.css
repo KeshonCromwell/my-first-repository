@@ -45,7 +45,9 @@ nav ul {
 
 nav li a {
     text-decoration: none;
+    font-family: "Courier Prime", monospace;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 /* Grid for my portfolio */

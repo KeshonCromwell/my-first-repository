@@ -85,7 +85,9 @@ nav ul {
 
 nav li a {
     text-decoration: none;
+    font-family: "Courier Prime", monospace;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 /* this is the first of the two media queries */

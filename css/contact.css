@@ -33,6 +33,13 @@ p {
     line-height: 1.4;
 }
 
+i {
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 10px;
+    display: block;
+}
+
 a:link {
     color: #ffffff;
 }
@@ -57,5 +64,7 @@ nav ul {
 
 nav li a {
     text-decoration: none;
+    font-family: "Courier Prime", monospace;
     font-weight: bold;
+    text-transform: uppercase;
 }
