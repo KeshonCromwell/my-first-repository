@@ -6,19 +6,23 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
+
 h1 {
     color: #ffffff;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 h2 {
     color: #ffffff;
     margin-top: 0;
     margin-bottom: 10px;
 }
+
 p {
     color: #ffffff;
 }
+
 .travel-columns {
     column-count: 2;
     column-gap: 30px;
@@ -28,12 +32,33 @@ p {
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.3);
 }
+
 a:link {
     color: #ffffff;
 }
+
 a:visited {
     color: #ffffff;
 }
+
 a:hover {
     color: #ffd700;
+}
+
+/* this is second of the two media queries */
+@media screen and (max-width: 480px) {
+    main {
+        width: 95%;
+        height: auto;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    li {
+        word-wrap: break-word;
+        font-size: 0.9rem;
+    }
 }
