@@ -1,11 +1,14 @@
 body {
     background-color: #333333;
+    background-image: url('../img/BeachSunsetB&W.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 /* This is for fluid layout */
-nav,
-main,
-footer {
+main, footer {
     width: 90%;
     max-width: 1100px;
 }
@@ -20,9 +23,7 @@ p {
     color: #888888;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     color: #ffffff;
 }
 
@@ -37,15 +38,30 @@ ol li {
 }
 
 a:link {
-    color: #2e86de;
+    color: #ffffff;
 }
 
 a:visited {
-    color: #a5d1ff;
+    color: #ffffff;
 }
 
 a:hover {
-    color: #ffffff;
+    color: #ffd700;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none;
+    padding: 20px 0;
+    background-color: #000000;
+    width: 100%;
+}
+
+nav li a {
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* this is the first of the two media queries */

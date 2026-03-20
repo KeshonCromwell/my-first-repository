@@ -1,0 +1,72 @@
+body {
+    background-color: #333333;
+    background-image: url('../img/BeachSunsetB&W.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #ffffff;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffd700;
+}
+
+/* Navigation Bar */
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none;
+    padding: 20px 0;
+    background-color: #000000;
+    width: 100%;
+}
+
+nav li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Grid for my portfolio */
+.design-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    width: 95%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.design-grid img {
+    width: 100%;
+    height: auto;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .design-grid {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+}
